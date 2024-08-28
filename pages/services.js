@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function Home() {
+export default function Services() {
   return (
     <div>
       <header>
@@ -14,9 +14,12 @@ export default function Home() {
         </nav>
       </header>
       <main>
-        <h1>Welcome to business_name</h1>
-        <p>Your partner in data visualizations and process streamlining.</p>
-        <img src="/happy-picture.jpg" alt="Happy Business" />
+        <h1>Our Services</h1>
+        <ul>
+          <li>Data Visualization</li>
+          <li>Process Streamlining</li>
+          <li>Consultation</li>
+        </ul>
       </main>
       <footer>
         <p>Disclaimers: All information provided is for informational purposes only.</p>
