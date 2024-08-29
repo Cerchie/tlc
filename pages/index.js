@@ -14,12 +14,12 @@ export default function Home() {
         </nav>
       </header>
       <main>
-        <h1>Welcome to business_name</h1>
-        <p>Your partner in data visualizations and process streamlining.</p>
-        <img src="/happy-picture.jpg" alt="Happy Business" />
+        <h1>DataMind Strategies</h1>
+        <p>Your partner in data visualizations and business process streamlining.</p>
+        <img src="/vercel.svg" alt="Happy Business" />
       </main>
       <footer>
-        <p>Disclaimers: All information provided is for informational purposes only.</p>
+        <p>Disclaimers: DataMind consulting does not provide services exclusively provided by CPAs or CFPs.</p>
       </footer>
     </div>
   );

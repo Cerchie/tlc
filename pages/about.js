@@ -14,11 +14,11 @@ export default function About() {
         </nav>
       </header>
       <main>
-        <h1>About Us</h1>
+        <h1>About Taylor Cerchie</h1>
         <p>We specialize in creating data visualizations and streamlining business processes to enhance efficiency and clarity.</p>
       </main>
       <footer>
-        <p>Disclaimers: All information provided is for informational purposes only.</p>
+        <p>Disclaimers: DataMind consulting does not provide services exclusively provided by CPAs or CFPs.</p>
       </footer>
     </div>
   );
