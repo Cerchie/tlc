@@ -16,7 +16,7 @@ export default function Home() {
       <main>
         <h1>DataMind Strategies</h1>
         <p>Your partner in data visualizations and business process streamlining.</p>
-        <img src="/vercel.svg" alt="Happy Business" />
+        <img src="/logo.png" alt="just an image" />
       </main>
       <footer>
         <p>Disclaimers: DataMind consulting does not provide services exclusively provided by CPAs or CFPs.</p>

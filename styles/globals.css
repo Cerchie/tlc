@@ -6,7 +6,14 @@ body {
   margin: 0;
   padding: 0;
 }
-
+img {
+  max-width: 100%;
+  height: auto;
+}
+h1 {
+  font-size: 5rem;
+  margin: 1em;
+}
 header {
   background: #333;
   color: white;
@@ -26,6 +33,11 @@ nav ul li {
 nav ul li a {
   color: white;
   text-decoration: none;
+}
+
+p {
+  margin: 2em;
+  font-size: 3em;
 }
 
 footer {
