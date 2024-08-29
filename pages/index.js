@@ -15,7 +15,7 @@ export default function Home() {
       </header>
       <main>
         <h1>DataMind Strategies</h1>
-        <p>Does your business need a little TLC? Treat it to some Tailored Local Consulting! DataMind serves business in the greater Flagstaff area. Contact Taylor Lee Cerchie today for a free consultation.</p>
+        <p>Does your business need a little TLC? Treat it to some Tailored Local Consulting! DataMind serves businesses in the greater Flagstaff area. Contact Taylor Lee Cerchie today for a free consultation.</p>
         <img src="/logo.png" alt="just an image" />
       </main>
       <footer>
