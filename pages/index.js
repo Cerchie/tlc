@@ -15,11 +15,11 @@ export default function Home() {
       </header>
       <main>
         <h1>DataMind Strategies</h1>
-        <p>Does your business need a little TLC? Treat it to some Tailored Local Consulting! DataMind serves businesses in the greater Flagstaff area. Contact Taylor Lee Cerchie today for a free consultation.</p>
+        <p>Does your business need a little TLC? Treat it to some Tailored Local Consulting! DataMind serves businesses in the greater Flagstaff area. <Link href="/contact">Contact Taylor Lee Cerchie</Link> today for a free consultation.</p>
         <img src="/logo.png" alt="just an image" />
       </main>
       <footer>
-        <p>Disclaimers: DataMind consulting does not provide services exclusively provided by CPAs or CFPs.</p>
+        <p id="disclaimer">Disclaimers: DataMind consulting does not provide services exclusively provided by CPAs or CFPs.</p>
       </footer>
     </div>
   );

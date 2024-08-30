@@ -18,7 +18,7 @@ export default function About() {
         <p>We specialize in creating data visualizations and streamlining business processes to enhance efficiency and clarity.</p>
       </main>
       <footer>
-        <p>Disclaimers: DataMind consulting does not provide services exclusively provided by CPAs or CFPs.</p>
+        <p id="disclaimer">Disclaimers: DataMind consulting does not provide services exclusively provided by CPAs or CFPs.</p>
       </footer>
     </div>
   );
