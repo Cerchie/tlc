@@ -26,6 +26,14 @@ header {
   padding: 1rem;
 }
 
+ul {
+  list-style-type: none;
+}
+li {
+  font-size: 3em;
+  line-height: 1.8;
+  margin-left: 2em;
+}
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -86,6 +94,7 @@ footer {
 
   }
   
+
   nav ul {
     list-style-type: none;
     padding: 0;
@@ -103,6 +112,8 @@ footer {
     color: white;
     text-decoration: none;
   }
+
+
   
   p {
     margin: 2em;
