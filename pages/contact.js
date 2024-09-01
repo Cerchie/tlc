@@ -32,7 +32,7 @@ export default function Contact() {
         </form>
       </main>
       <footer>
-        <p id="disclaimer">Disclaimers: DataMind consulting does not provide services exclusively provided by CPAs or CFPs.</p>
+        <p id="disclaimer">Disclaimers: DataMinded consulting does not provide services exclusively provided by CPAs or CFPs.</p>
       </footer>
     </div>
   );
