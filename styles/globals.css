@@ -4,7 +4,7 @@
 /* When the browser is at least 600px and above */
 @media screen and (min-width: 600px) {
 #disclaimer {
-font-size: 1em;
+font-size: .5em;
 }
 
 #disclaimer-about {
@@ -82,7 +82,7 @@ footer {
 /* When the browser is at most 600px and above */
 
   #disclaimer {
-  font-size: 1em;
+  font-size: .5em;
   }
 
   .about-para {
