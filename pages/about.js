@@ -15,10 +15,10 @@ export default function About() {
       </header>
       <main>
         <h1>About Taylor Cerchie</h1>
-        <p>We specialize in creating data visualizations and streamlining business processes to enhance efficiency and clarity.</p>
+        <p>Taylor Cerchie is exceptionally qualified to provide data-minded business consulting, drawing from a robust foundation of five years of experience as a finance analyst and a strong academic background with a master's degree in mechanical engineering from Arizona State University. His analytical skills are further enhanced by his Excel wizardry, enabling him to efficiently manage, interpret, and visualize complex data sets. Taylor’s unique combination of engineering problem-solving skills and financial expertise allows him to approach business challenges with a methodical, data-driven mindset, ensuring that his consulting advice is both strategically sound and practically implementable.</p>
       </main>
       <footer>
-        <p id="disclaimer">Disclaimers: DataMind consulting does not provide services exclusively provided by CPAs or CFPs.</p>
+        <p id="disclaimer">Disclaimers: DataMinded consulting does not provide services exclusively provided by CPAs or CFPs.</p>
       </footer>
     </div>
   );
