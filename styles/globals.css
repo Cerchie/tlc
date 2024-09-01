@@ -7,6 +7,17 @@
 font-size: 1em;
 }
 
+#disclaimer-about {
+  font-size: .5em;
+}
+.about-para {
+  font-size: 1em;
+  line-height: 2;
+  margin: 1em;
+  margin-left: 6em;
+  max-width: 50%;
+}
+
 body {
   font-family: Merriweather, serif;
   margin: 0;
@@ -69,9 +80,16 @@ footer {
 
 
 /* When the browser is at most 600px and above */
-@media screen and (max-width: 600px) {
+
   #disclaimer {
   font-size: 1em;
+  }
+
+  .about-para {
+    font-size: 2em;
+    line-height: 2;
+    margin: 2em;
+    max-width: 90%;
   }
   
   body {
@@ -94,6 +112,7 @@ footer {
 
   }
   
+
 
   nav ul {
     list-style-type: none;
@@ -127,6 +146,6 @@ footer {
     text-align: center;
     margin-top: 2rem;
   }
-  }
+  
   
   
