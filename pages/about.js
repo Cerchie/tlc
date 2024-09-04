@@ -9,7 +9,7 @@ export default function About() {
             <li><Link href="/">Home</Link></li>
             <li><Link href="/about">About</Link></li>
             <li><Link href="/services">Services</Link></li>
-            <li><Link href="/contact">Contact Form</Link></li>
+            <li><Link href="https://docs.google.com/forms/d/e/1FAIpQLSfex5d6buKZulakrUFSUvXL1Mym1TmOJ_mths5KsMgHpJq0-A/viewform">Contact Form</Link></li>
           </ul>
         </nav>
       </header>
