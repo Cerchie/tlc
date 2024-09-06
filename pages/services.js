@@ -14,11 +14,24 @@ export default function Services() {
         </nav>
       </header>
       <main>
-        <h1>Our Services</h1>
+        <h1 id="services-h1">Our Services</h1>
+        <img id="arrow-img" src="/arrow.png" alt="just an image" />
         <ul>
-          <li>Data Visualization</li>
-          <li>Process Streamlining</li>
-          <li>Consultation</li>
+          <li>Data Visualization
+            <ul>
+                <li>Get a 360 view of the state of your business.</li>
+            </ul>
+          </li>
+          <li>Process Streamlining
+            <ul>
+                <li>Optimize your workflow and eliminate time wasted.</li>
+            </ul>
+          </li>
+          <li>Excel Training
+            <ul>
+                <li>You and your team can learn to use Excel like a pro.</li>
+            </ul>
+          </li>
         </ul>
       </main>
       <footer>

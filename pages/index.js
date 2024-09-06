@@ -15,8 +15,8 @@ export default function Home() {
       </header>
       <main>
         <h1>DataMinded Strategies</h1>
+        <img src="/swoosh.png" alt="just an image" />
         <p>Does your business need a little TLC? Treat it to some Tailored Local Consulting! DataMinded serves businesses in the greater Flagstaff area. <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfex5d6buKZulakrUFSUvXL1Mym1TmOJ_mths5KsMgHpJq0-A/viewform">Contact Taylor Lee Cerchie</Link> today for a free consultation.</p>
-        <img src="/logo.png" alt="just an image" />
       </main>
       <footer>
         <p id="disclaimer">Disclaimers: DataMinded consulting does not provide services exclusively provided by CPAs or CFPs.</p>
