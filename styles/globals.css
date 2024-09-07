@@ -1,9 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
 
 /* When the browser is at least 600px and above */
 @media screen and (min-width: 600px) {
   #disclaimer {
-    font-size: 0.5em;
+    font-size: 2em;
+    color: gray;
+  }
+
+  a:active {
+    color: white;
+  }
+  
+  a:visited {
+    color: cyan;
   }
   #arrow-img {
     max-width: 40%;
@@ -12,7 +21,8 @@
     display: flex;
   }
   #disclaimer-about {
-    font-size: 0.5em;
+    font-size: 2em;
+    color: gray;
   }
   .about-para {
     font-size: 1em;
@@ -23,10 +33,13 @@
   }
 
   body {
-    font-family: Merriweather, serif;
+    font-family: "Anonymous Pro", monospace;
     margin: 0;
     padding: 0;
+    background: rgb(63,30,92);
+    background: linear-gradient(90deg, rgba(63,30,92,1) 0%, rgba(31,45,92,1) 100%);
   }
+
   img {
     max-width: 100%;
     height: auto;
@@ -104,7 +117,8 @@ ul li ul li {
 }
 
 #disclaimer {
-  font-size: 0.5em;
+  font-size: 2em;
+  color: gray;
 }
 
 .about-para {
@@ -115,7 +129,8 @@ ul li ul li {
 }
 
 body {
-  font-family: Merriweather, serif;
+  font-family: "Anonymous Pro", monospace;
+  color: white;
   margin: 0;
   padding: 0;
 }
@@ -161,4 +176,12 @@ footer {
   padding: 1rem;
   text-align: center;
   margin-top: 2rem;
+}
+
+a:active {
+  color: white;
+}
+
+a:visited {
+  color: cyan;
 }

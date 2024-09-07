@@ -25,7 +25,6 @@ export default function Home() {
       </header>
       <main>
         <h1>DataMinded Strategies</h1>
-        <img src="/swoosh.png" alt="just an image" />
         <p>
           Does your business need a little TLC? Treat it to some Tailored Local
           Consulting! DataMinded serves businesses in the greater Flagstaff

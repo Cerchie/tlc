@@ -25,7 +25,6 @@ export default function Services() {
       </header>
       <main>
         <h1 id="services-h1">Our Services</h1>
-        <img id="arrow-img" src="/arrow.png" alt="just an image" />
         <ul>
           <li>
             Data Visualization
