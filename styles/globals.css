@@ -1,26 +1,117 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
 /* When the browser is at least 600px and above */
 @media screen and (min-width: 600px) {
-#disclaimer {
-font-size: .5em;
+  #disclaimer {
+    font-size: 0.5em;
+  }
+  #arrow-img {
+    max-width: 40%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+  }
+  #disclaimer-about {
+    font-size: 0.5em;
+  }
+  .about-para {
+    font-size: 1em;
+    line-height: 2;
+    margin: 1em;
+    margin-left: 6em;
+    max-width: 50%;
+  }
+
+  body {
+    font-family: Merriweather, serif;
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  h1 {
+    font-size: 5rem;
+    margin: 1em;
+  }
+  header {
+    background: #333;
+    color: white;
+    padding: 1rem;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0 auto;
+    display: flex;
+  }
+  li {
+    font-size: 3em;
+    line-height: 1.8;
+    margin-left: 2em;
+  }
+
+  .services-h2 {
+    font-size: 3em;
+    line-height: 1.8;
+    margin-left: 2em;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 1em;
+    margin-left: 1em;
+    font-size: 2em;
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  p {
+    margin: 2em;
+    font-size: 3em;
+    line-height: 2;
+  }
+
+  footer {
+    background: #f1f1f1;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
 }
-#arrow-img {
-  max-width: 40%;
-  height: auto;
+
+/* When the browser is at most 600px and above */
+li {
+  font-size: 3em;
+  line-height: 1.8;
+  margin-left: 2em;
+}
+
+ul li ul li {
   margin: 0 auto;
   display: flex;
+  font-size: 0.5em;
+  line-height: 1.8;
+  margin-left: -1.75em;
 }
-#disclaimer-about {
-  font-size: .5em;
+
+#disclaimer {
+  font-size: 0.5em;
 }
+
 .about-para {
-  font-size: 1em;
+  font-size: 2em;
   line-height: 2;
-  margin: 1em;
-  margin-left: 6em;
-  max-width: 50%;
+  margin: 2em;
+  max-width: 90%;
 }
 
 body {
@@ -29,7 +120,7 @@ body {
   padding: 0;
 }
 img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 h1 {
@@ -40,27 +131,8 @@ header {
   background: #333;
   color: white;
   padding: 1rem;
-  
 }
 
-
-
-ul {
-  list-style-type: none;
-  margin: 0 auto;
-  display: flex;
-}
-li {
-  font-size: 3em;
-  line-height: 1.8;
-  margin-left: 2em;
-}
-
-.services-h2 {
-  font-size: 3em;
-  line-height: 1.8;
-  margin-left: 2em;
-}
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -71,12 +143,9 @@ nav ul li {
   margin-right: 1em;
   margin-left: 1em;
   font-size: 2em;
-  
-
 }
 
 nav ul li a {
-
   color: white;
   text-decoration: none;
 }
@@ -93,92 +162,3 @@ footer {
   text-align: center;
   margin-top: 2rem;
 }
-}
-
-
-
-/* When the browser is at most 600px and above */
-li {
-  font-size: 3em;
-  line-height: 1.8;
-  margin-left: 2em;
-}
-
-ul li ul li{
-  margin: 0 auto;
-  display: flex;
-  font-size: .5em;
-  line-height: 1.8;
-  margin-left: -1.75em;
-
-}
-
-
-  #disclaimer {
-  font-size: .5em;
-  }
-
-  .about-para {
-    font-size: 2em;
-    line-height: 2;
-    margin: 2em;
-    max-width: 90%;
-  }
-  
-  body {
-    font-family: Merriweather, serif;
-    margin: 0;
-    padding: 0;
-  }
-  img {
-    width: 100%;
-    height: auto;
-  }
-  h1 {
-    font-size: 5rem;
-    margin: 1em;
-  }
-  header {
-    background: #333;
-    color: white;
-    padding: 1rem;
-
-  }
-  
-
-
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 1em;
-    margin-left: 1em;
-    font-size: 2em;
-  
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-  }
-
-
-  
-  p {
-    margin: 2em;
-    font-size: 3em;
-    line-height: 2;
-  }
-  
-  footer {
-    background: #f1f1f1;
-    padding: 1rem;
-    text-align: center;
-    margin-top: 2rem;
-  }
-  
-  
-  
