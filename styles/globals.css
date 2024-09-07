@@ -3,8 +3,9 @@
 /* When the browser is at least 600px and above */
 @media screen and (min-width: 600px) {
   #disclaimer {
-    font-size: 2em;
-    color: gray;
+    margin-top: 20em;
+    font-size: 1em;
+    margin-bottom: -8em;
   }
 
   a:active {
@@ -12,7 +13,7 @@
   }
   
   a:visited {
-    color: cyan;
+    color: white;
   }
   #arrow-img {
     max-width: 40%;
@@ -21,8 +22,9 @@
     display: flex;
   }
   #disclaimer-about {
-    font-size: 2em;
-    color: gray;
+    margin-top: 20em;
+    font-size: 1em;
+
   }
   .about-para {
     font-size: 1em;
@@ -33,7 +35,9 @@
   }
 
   body {
+    display: flex;
     font-family: "Anonymous Pro", monospace;
+    font-weight: lightest;
     margin: 0;
     padding: 0;
     background: rgb(63,30,92);
@@ -45,11 +49,14 @@
     height: auto;
   }
   h1 {
-    font-size: 5rem;
+    font-size: 8em;
     margin: 1em;
+    font-family: "SUSE", sans-serif;
+    font-weight: lighter;
+    letter-spacing: .1em
   }
   header {
-    background: #333;
+    background: black;
     color: white;
     padding: 1rem;
   }
@@ -70,6 +77,9 @@
     line-height: 1.8;
     margin-left: 2em;
   }
+  nav {
+    background: black;
+  }
   nav ul {
     list-style-type: none;
     padding: 0;
@@ -89,19 +99,22 @@
 
   p {
     margin: 2em;
-    font-size: 3em;
+    font-size: 1em;
     line-height: 2;
   }
 
   footer {
     background: #f1f1f1;
+    color: white;
     padding: 1rem;
     text-align: center;
     margin-top: 2rem;
+    background: rgb(63,30,92);
+    background: linear-gradient(90deg, rgba(63,30,92,1) 0%, rgba(31,45,92,1) 100%);
   }
 }
 
-/* When the browser is at most 600px and above */
+
 li {
   font-size: 3em;
   line-height: 1.8;
@@ -117,8 +130,8 @@ ul li ul li {
 }
 
 #disclaimer {
-  font-size: 2em;
-  color: gray;
+  margin-top: 20em;
+  font-size: 1em;
 }
 
 .about-para {
@@ -133,6 +146,7 @@ body {
   color: white;
   margin: 0;
   padding: 0;
+  display: flex;
 }
 img {
   width: 100%;
@@ -143,7 +157,7 @@ h1 {
   margin: 1em;
 }
 header {
-  background: #333;
+  background: black;
   color: white;
   padding: 1rem;
 }
@@ -167,15 +181,18 @@ nav ul li a {
 
 p {
   margin: 2em;
-  font-size: 3em;
+  font-size: 2em;
   line-height: 2;
 }
 
 footer {
+  color: white;
   background: #f1f1f1;
   padding: 1rem;
   text-align: center;
   margin-top: 2rem;
+  background: rgb(63,30,92);
+  background: linear-gradient(90deg, rgba(63,30,92,1) 0%, rgba(31,45,92,1) 100%);
 }
 
 a:active {
@@ -183,5 +200,5 @@ a:active {
 }
 
 a:visited {
-  color: cyan;
+  color: white;
 }
